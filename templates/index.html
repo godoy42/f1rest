@@ -1,0 +1,34 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>{{titulo}}</title>
+    <base href="/index.html">
+    <meta name = "viewport" content = "width=device-width, initial-scale = 1.0">
+    <meta name="author" content="Godoy">
+    <link rel='stylesheet' href="{{ url_for('static',filename='stylesheets/style.css') }}" />
+  </head>
+  <body>
+    <div id="content-container">
+      <div id="content-container-center">
+        <h3>{{titulo}}</h3>
+      </div>
+      <br><br><br>
+      <div>
+        <div id="titulo_lista">
+          Estes são os métodos disponíveis:
+        </div>
+        <div id="lista">
+          <ul>
+           <li><a href="/equipe">/equipe</a> - retorna todas as equipes</li>
+           <li><a href="/equipe/1">/equipe/[id]</a> - retorna dados de uma equipe</li>
+           <li><a href="/piloto">/piloto</a> - retorna todos os pilotos</li>
+           <li><a href="/piloto/102">/piloto/[id]</a> - retorna dados de um piloto</li>
+           <li><a href="/circuito">/circuito</a> - retorna todos os circuitos</li>
+           <li><a href="/circuito/41">/circuito/[id]</a> - retorna dados de um circuito</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
