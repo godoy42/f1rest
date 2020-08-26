@@ -1,0 +1,43 @@
+﻿@import url(//fonts.googleapis.com/css?family=Open+Sans:400,700,600);
+
+*{
+  box-sizing:border-box;
+}
+html,body{
+  margin: 0;
+  padding: 0;
+  background-color: #F7F8F9;
+  height: 100vh;
+  font-family: 'Open Sans';
+}
+
+#content-container{
+  z-index: 2;
+  position: relative;
+  margin: 0 auto;
+  display: table;
+  padding: 10px;
+  max-width: 940px;
+  height: 100%;
+}
+#content-container-center{
+  display: table-cell;
+  text-align: center;
+}
+
+#titulo_lista {
+  color: #BABACA;
+}
+
+#content-container-center h3{
+  color: #254356;
+}
+
+#lista a:hover, #lista a:focus{
+  outline:0;
+  text-decoration:underline;
+}
+
+#lista a:hover{
+  background-color: #1488c6;
+}
