@@ -1,4 +1,4 @@
-﻿FROM python:2.7-alpine
+﻿FROM python:3.6.12-alpine
 WORKDIR /app
 
 # Install our requirements.txt
